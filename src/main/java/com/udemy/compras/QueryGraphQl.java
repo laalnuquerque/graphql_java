@@ -4,8 +4,9 @@ import com.coxautodev.graphql.tools.GraphQLResolver;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Query implements GraphQLResolver{
+public class QueryGraphQl implements GraphQLResolver {
     public String hello(){
-        return "Hello GraphQl";
+        return "Hello filho";
     }
+
 }
