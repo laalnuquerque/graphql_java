@@ -30,3 +30,5 @@ public class QueryGraphQl implements GraphQLQueryResolver {
         return clienteRep.findAll();
     }
 }
+
+
